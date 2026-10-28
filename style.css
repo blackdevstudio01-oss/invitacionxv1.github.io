@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --text-serif: "Imperial Script", cursive;
+  --text-normal: "Cormorant Garamond", serif;
+}
+
+.main {
+  width: 100%;
+  max-width: 430px;
+  height: 85dvh;
+
+  margin: 0 auto;
+
+  background-image: url(assets/Elegant\ Cream\ Floral\ Border\ Wallpaper.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 80%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-contain {
+  width: 90%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-main {
+  width: 90%;
+  height: 300px;
+  background-image: url(assets/Romantic\ Polaroid\ Flower\ Collage.png);
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.title-main {
+  font-family: var(--text-normal);
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+
+  color: rgb(95, 95, 95);
+}
+
+.name-main {
+  font-family: var(--text-normal);
+  font-style: italic;
+  color: rgb(135, 122, 66);
+
+  font-size: 2.5em;
+}
+
+.subtitle-mainxv {
+  font-family: var(--text-normal);
+  font-style: italic;
+  color: rgb(95, 95, 95);
+
+  font-size: 2.5rem;
+}
+
+.mesage {
+  width: 100%;
+  max-width: 430px;
+
+  height: 95svh;
+
+  margin: 1.5rem auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.liston1 {
+  width: 100%;
+  aspect-ratio: 4 / 1;
+  background-image: url(assets/Glossy\ Pink\ Satin\ Bow\ Ribbon.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.text-mesage {
+  font-family: var(--text-normal);
+  font-weight: 500;
+  text-align: center;
+  color: rgb(95, 95, 95);
+}
+
+.date-mesage {
+  overflow: hidden;
+
+  width: 40%;
+  aspect-ratio: 1 / 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.date-mesage p {
+  text-align: center;
+
+  color: brown;
+  text-align: center;
+
+  font-size: 3.5rem;
+  font-family: var(--text-normal);
+  line-height: 0.8;
+}
+
+.party-mesage {
+  text-align: center;
+  font-family: var(--text-normal);
+  color: rgb(95, 95, 95);
+  font-weight: 500;
+}
+
+.btn-mesage,
+.btn-rsvp {
+  background-color: brown;
+  color: white;
+  border: none;
+  padding: 0.8rem 2.5rem;
+
+  font-family: var(--text-normal);
+  font-size: 1.3rem;
+  border-radius: 2rem;
+
+  &:hover {
+    background-color: rgb(133, 22, 22);
+    box-shadow: 1px 2px 0.8 brown;
+  }
+}
+
+.rsvp {
+  width: 100%;
+  height: 100svh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-rsvp {
+  width: 90%;
+  aspect-ratio: 3 / 4;
+
+  background-image: url(assets/Pink\ Lotus\ RSVP\ Emblem.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.btn-rsvp {
+  margin: 3rem 0;
+}
+
+.ftr {
+  width: 100%;
+  height: 70svh;
+  margin: 3rem 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.text-ftr {
+  font-family: var(--text-normal);
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-align: center;
+  color: rgb(95, 95, 95);
+}
+
+.img-ftr {
+  background-image: url(assets/Crowned\ Princess\ Polaroid\ Collage.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  width: 60%;
+  aspect-ratio: 3 / 4;
+}
