@@ -1,0 +1,270 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.all-contain {
+  margin: 0 auto;
+
+  overflow: hidden;
+
+  width: 100%;
+  max-width: 430px;
+  height: auto;
+}
+
+.main-contain {
+  width: 100%;
+  height: 100dvh;
+
+  background-image: url(assets/Elegant\ Cream\ Floral\ Border\ Wallpaper.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-main {
+  width: 75%;
+  height: auto;
+}
+
+.party {
+  width: 100%;
+
+  padding: 1.5rem 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+
+  text-align: center;
+}
+
+.text-party-contain {
+  width: 65%;
+  overflow-wrap: anywhere;
+
+  margin-bottom: 0.8rem;
+
+  color: #919191;
+}
+
+.text-party-bottom-contain {
+  width: 65%;
+  overflow-wrap: anywhere;
+
+  margin-top: 0.8rem;
+
+  color: #919191;
+}
+
+.date-img {
+  width: 50%;
+  height: auto;
+}
+
+.pink {
+  width: 100%;
+  height: auto;
+}
+
+.clock {
+  margin: 1rem auto;
+  width: 80%;
+}
+
+#countdown {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #ae3257;
+}
+
+#countdown div {
+  text-align: center;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+#countdown span {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.place {
+  width: 100%;
+
+  margin: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.place-img-contain {
+  margin-top: 3.5rem;
+
+  width: 60vh;
+  max-width: 60vh;
+  height: 80vh;
+
+  border-radius: 100%;
+
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.place-img {
+  width: 100%;
+  height: auto;
+}
+
+.btn-place {
+  margin-top: 4rem;
+
+  height: 3.5rem;
+  padding: 0 2rem;
+
+  font-size: 1.2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 100;
+  color: #ae3257;
+
+  border-radius: 3rem;
+  border: none;
+
+  background: rgb(253, 250, 250);
+  box-shadow: 0 12px 30px rgba(174, 50, 87, 0.52);
+  transition: 0.5s ease-in-out;
+}
+
+.btn-place a {
+  text-decoration: none;
+  color: #ae3257;
+
+  &:hover {
+    color: white;
+  }
+}
+
+.btn-place:hover {
+  background: #ae3257;
+  color: white;
+  box-shadow: 0 12px 30px rgba(250, 249, 249, 0);
+}
+
+.rsvp {
+  width: 100%;
+  max-width: 100%;
+  margin: 6rem auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 2.5rem;
+}
+.img-rsvp-contain {
+  width: 70%;
+  max-width: 70%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-rsvp {
+  width: 100%;
+  height: auto;
+}
+
+.btn-rsvp {
+  margin-top: 2.5rem;
+
+  height: 3.5rem;
+  padding: 0 2rem;
+
+  font-size: 1.5rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 100;
+  color: #ae3257;
+
+  border-radius: 3rem;
+  border: none;
+
+  background: rgb(253, 250, 250);
+  box-shadow: 0 12px 30px rgba(174, 50, 87, 0.52);
+  transition: 0.5s ease-in-out;
+}
+
+.btn-rsvp a {
+  text-decoration: none;
+  color: #ae3257;
+
+  &:hover {
+    color: white;
+  }
+}
+
+.btn-rsvp:hover {
+  background: #ae3257;
+  color: white;
+  box-shadow: 0 12px 30px rgba(250, 249, 249, 0);
+}
+
+.ftr {
+  margin: 2.5rem 0;
+
+  width: 100%;
+  max-width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ftr-text-contain {
+  margin-top: 2rem;
+  width: 60%;
+  max-width: 60%;
+  height: auto;
+  text-align: center;
+  color: #919191;
+
+  overflow-wrap: anywhere;
+}
+
+.ftr-text {
+  font-size: 1.1rem;
+}
+
+.ftr-img-contain {
+  width: 80%;
+  max-width: 80%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ftr-img {
+  width: 100%;
+  height: auto;
+}
