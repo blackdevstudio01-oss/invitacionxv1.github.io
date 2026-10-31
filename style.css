@@ -113,9 +113,9 @@
 .place-img-contain {
   margin-top: 3.5rem;
 
-  width: 60%;
-  max-width: 60%;
-  height: 80dvh;
+  width: 70%;
+  max-width: 70%;
+  height: auto;
 
   border-radius: 100%;
 
